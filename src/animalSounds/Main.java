@@ -11,6 +11,7 @@ public class Main {
         animals.add(new Cat());
         animals.add(new Cow());
         animals.add(new Bird());
+        animals.add(new Bunny());
         
         for (Animal animal : animals) {
             System.out.println(animal.getType() + " makes sound: " + animal.makeSound());
